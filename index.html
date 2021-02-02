@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photo Album</title>
+    <title>Pokémon</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -14,6 +14,7 @@
     <spcipt href="main.js"></spcipt>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap" rel="stylesheet">
+    <link rel="icon" href="http://pngimg.com/uploads/pokeball/pokeball_PNG8.png" type="image/icon type">
 </head>
 
 <body>
@@ -23,10 +24,15 @@
             </h1>
         </center>
         <button style="font-size: 20px;
-                       font-family: 'Londrina Solid', cursive;" type="button"><a href="#main">See Characters👀</a></button>
+                       font-family: 'Londrina Solid', cursive;" type="button"><a href="#slideshow">See Characters👀</a></button>
+    </section>
+    <section id="grid">
+        <h2 style="font-family: 'Londrina Solid', cursive; color:white;">Grid View</h2>
+
     </section>
 
-    <section id="main">
+    <section id="slideshow">
+        <h2 style="font-family: 'Londrina Solid', cursive; color:white;">Slideshow</h2>
         <div id="myCarousel" class="carousel slide">
 
 
@@ -125,7 +131,7 @@
                 <div class="item">
                     <center>
 
-                        <img height=250px width=250px src="james.png" class="img-responsive">
+                        <img src="james.png" height=250px width=250px class="img-responsive">
 
                         <div class="carousel-content">
                             <h3 style="font-family: 'Hachi Maru Pop', cursive;">James</h3>
@@ -187,6 +193,8 @@
                 <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
         </div>
+        <button style="font-size: 20px;
+                       font-family: 'Londrina Solid', cursive;" type="button"><a href="#grid">See In Grid View👀</a></button>
     </section>
 
 
